@@ -1,3 +1,4 @@
+
 class Product:
 
     def __init__(self, name, price, quantity):
@@ -5,6 +6,6 @@ class Product:
         self.price = price
         self.quantity = quantity
 
+
     def __str__(self):
         return f"{self.name} - ${self.price:.2f} (Quantity: {self.quantity})"
-    
